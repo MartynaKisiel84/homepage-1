@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/aside.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-body">
+    <header class="header">
+        <h1>Szachy-moje hobby</h1>
+        <button class="header_button js-button">Włącz <span class="js-color">ciemny motyw</span></button>
+    </header>
+
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                <a href="#O mnie" class="navigation__link">O mnie</a>
+            </li>
+            <li class="navigation__item">
+                <a href="#Powiązane linki" class="navigation__link">Powiązane linki</a>
+            </li>
+            <li class="navigation__item">
+                <a href="#Moje osiągnięcia" class="navigation__link">Moje osiągnięcia</a>
+            </li>
+            <li class="navigation__item">
+                <a href="#Plany startów" class="navigation__link">Plany startów</a>
+            </li>
+            <li class="navigation__item">
+                <a href="#Kontakt" class="navigation__link">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="imageFormater">
+        <img class="image" width="400" height="300" src="https://i.postimg.cc/mDKjZzVm/pobrane.jpg"
+            alt="Puchary Wiktora"></img>
+    </div>
+
+
+    <main>
+        <article class="article">
+            <section id="O-mnie">
+                <h2 class="article__header">Moja przygoda z szachami</h2>
+                <p class="article__paragraph"> Mam na imię Wiktor. Moja przygoda z
+                    szachami zaczęła się 4 lata temu gdy miałem 6 lat. Moja mama
+                    Martyna zapiasła mnie na zajęcia szachowe w Miejskim Ośrodku Kultury. Wcześniej tata i dziadek
+                    pokazywali mi zasady gry, ale nie byłem wtedy zainteresowany szachami. Dopiero w Miejskim
+                    Ośrodku, znając już podstawowe ruchy zacząłem wygrywać z kilka lat starszymi od siebie kolegami.
+                    Bardzo wciągnęła mnie ta gra. Po kilku miesiącach mama zapisała mnie do klubu szachowego, w
+                    którym mogłem rozwijać swoje umiejętności. Zacząłem grać w różnej rangi turniejach szachowych i
+                    zdobywać pierwsze medale i puchary. To mnie bardzo motywowało. Po upływie roku pojechałem na
+                    półfinały Mistrzostw Polski, po których dostałem się do finału Mistrzostw Polski. Pierwsze
+                    mistrzostwa nie poszły mi tak dobrze jak tegoroczne.</p>
+                <p class="article__paragraph article__paragraph--highlighted">Zostałem brązowym medalistą Mistrzostw
+                    Polski do lat 10. Po mistrzostwach Polski Związek Szachowy
+                    zaprosił mie, abym został członkiem Kadry Narodowej. Był to dla mnie ogromny zaszczyt. Dzięki
+                    temu mogłem uczestniczyć w zgrupowaniach Kadry Narodowej. W tym roku byłem też kadrowiczem
+                    Małopolskiego Związku Szachowego, co również było dla mnie ogromną przygodą i wiązało się z
+                    licznymi wyjazdami. Mijający rok był dla mnie bardzo intensywny. Chciałbym, żeby następny też
+                    taki był.
+                </p>
+            </section>
+        </article>
+
+        <aside class="aside">
+            <section id="Powiązanelinki">
+                <h3 class="aside__header">Powiązane linki</h3>
+                <ul class="aside__list">
+                    <li class="aside__item">
+                        <a class="aside__link" rel="norefferer noopener" target="_blank"
+                            href="http://www.chessarbiter.com/" title="Strona internetowa z terminami turniejów">więcej
+                            o terminach turniejów (otwiera
+                            się w nowej karcie)</a>
+                    </li>
+                    <li class="aside__item">
+                        <a class="aside__link" rel="norefferer noopener" target="_blank" href="https://www.chess.com/"
+                            title="Pierwsza strona internetowa gdzie można zagrać w szachy">więcej o grze w szachy
+                            (otwiera się w nowej karcie)</a>
+                    </li>
+                    <li class="aside__item">
+                        <a class="aside__link" rel="norefferer noopener" target="_blank" href="https://lichess.org/pl"
+                            title="Pierwsza strona internetowa gdzie można zagrać w szachy">jeszcze więcej o grze w
+                            szachy (otwiera się w nowej karcie)</a>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+
+        <section id="Mojeosiągnięcia">
+            <h4 class="subHeader">Moje osiągnięcia szachowe</h4>
+            <div class="container">
+                <table class="table">
+                    <caption class="table__header">Moje osiągnięcia szachowe w 2022</caption>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="col">Nazwa turnieju</th>
+                        <th class="table__cell table__cell--header" scope="col">Miejsce</th>
+                        <th class="table__cell table__cell--header" scope="col">Kategoria</th>
+                        <th class="table__cell table__cell--header" scope="col">Miejscowość</th>
+                        <th class="table__cell table__cell--header" scope="col">Rodzaj</th>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">Mistrzostwa Polski Młodzików</th>
+                        <td class="table__cell">3 miejsce</td>
+                        <td class="table__cell">do 10 lat</td>
+                        <td class="table__cell">Jastrzębia Góra</td>
+                        <td class="table__cell">szachy klasyczne</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">Mistrzostwa Polski Juniorów i Młodzików
+                        </th>
+                        <td class="table__cell">7 miejsce</td>
+                        <td class="table__cell">do 10 lat</td>
+                        <td class="table__cell">Rzeszów</td>
+                        <td class="table__cell">szachy szybkie</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">Ogólnopolskie Mistrzostwa Szkół</th>
+                        <td class="table__cell">1 miejsce</td>
+                        <td class="table__cell">klasa 4</td>
+                        <td class="table__cell">Katowice</td>
+                        <td class="table__cell">szachy szybkie</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">Mistrzostwa Małopolski</th>
+                        <td class="table__cell">2 miejsce</td>
+                        <td class="table__cell">do 10 lat</td>
+                        <td class="table__cell">Kraków</td>
+                        <td class="table__cell">szachy błysakwiczne</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <a class="link" href="https://i.postimg.cc/mDKjZzVm/pobrane.jpg">Puchary Wiktora</a>
+
+        <section id="Planystartów">
+            <p class="section__paragraph">
+                <span class="bold">Plany startów</span>
+            </p>
+            <li class="section__list">
+                <span class="bold"> Wiosna 2023</span>
+                <ul class="section__item">
+                    <li class="section__item">Ekstraliga Śląska Juniorów</li>
+                    <li class="section__item">Międzynarodowy festiwal szachowy Gwiazda Północy</li>
+                    <li class="section__item">Mistrzostwa Polski Juniorów</li>
+                </ul>
+            </li>
+            <li class="section__list">
+                <span class="bold">Lato 2023</span>
+                <ul class="section__item">
+                    <li class="section__item">Drużynowe Mistrzostwa Polski Juniorów</li>
+                    <li class="section__item">Śląski festiwal szachowy: Szachy w Ustroniu łączą pokolenia</li>
+                    <li class="section__item">Mistrzostwa Polski Młodzików w szachach szybkich i błyskawicznych</li>
+                </ul>
+            </li>
+            <li class="section__list">
+                <span class="bold">Jesień 2023</span>
+                <ul class="section__item">
+                    <li class="section__item">Mistrzostwa Szkół i Przedszkoli</li>
+                    <li class="section__item">II Liga Juniorów</li>
+                </ul>
+            </li>
+            <li class="section__list">
+                <span class="bold"> Zima 2023</span>
+                <ul class="section__item">
+                    <li class="section__item">Mistrzostwa Europy w szachach szybkich i błyskawicznych</li>
+                    <li class="section__item">Międzynarodowy Festiwal szachowy Cracovia</li>
+                </ul>
+            </li>
+        </section>
+
+        <section id="Kontakt">
+            <span class="bold">
+                <p class="paragraph">Kontakt</p>
+            </span>
+            <a href="mailto:wiktor@chesscom.pl">wiktor@chesscom.pl</a>
+            <a href="tel:+48.625(123)3355">6251233355</a>
+        </section>
+        </div>
+    </main>
+    <footer class="footer">Copyright by Wiktor 2022
+    </footer>
+</body>
+</html>

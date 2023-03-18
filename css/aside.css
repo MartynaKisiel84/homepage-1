@@ -1,0 +1,12 @@
+.aside__header {
+    color:rgb(20, 20, 224);
+}
+.aside__list {
+    padding-left: 0;
+}
+.aside__item {
+    margin: 5px;
+}
+.aside__link {
+    text-decoration: none;
+}

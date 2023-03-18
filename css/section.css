@@ -1,0 +1,16 @@
+.section__paragraph {
+    color:rgb(24, 24, 226);
+}
+.section {
+    padding: 10px;
+    border: 1px solid #d6cdcd;
+}
+.section__list {
+    padding-left: 0;
+    list-style: none;
+    color:rgb(13, 45, 189)
+}
+.section__item {
+    margin: 5px;
+    color: rgb(17, 17, 17);
+}

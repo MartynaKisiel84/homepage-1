@@ -1,0 +1,53 @@
+html {
+box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.body {
+    background-color: rgb(213, 231, 236);
+    color: rgb(2, 9, 41);
+    max-width: 1000px;
+    margin: 0 auto;
+    border-width: 20px;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-indent: 40px;
+}
+.dark {
+    color: rgb(230, 240, 250);
+    background:rgb(90, 86, 86);
+}
+.caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 20px;
+}
+.container {
+    overflow-x: auto;
+    padding: 8px;
+}
+.bold {
+    font-weight: bold;
+}
+.button {
+    cursor: pointer;
+}
+.link {
+    color: rgb(17, 16, 16);
+}
+.paragraph {
+    margin-top: 60px;
+}
+.imageFormater {
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table__header {
+     color: rgb(8, 8, 8);
+    font-weight: normal;
+    background-color: rgb(87, 169, 172);
+}
+.table__cell {
+    border: 1px solid rgb(250, 242, 242);
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.table__cell--header {
+    color:rgb(16, 17, 17);
+    background-color: rgb(87, 169, 172);
+}
+.tableRow:hover {
+    background:rgb(68, 68, 68);
+}
