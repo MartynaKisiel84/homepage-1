@@ -1,10 +1,26 @@
-let ButtonElement = document.querySelector(".js-button");
-let BodyElement = document.querySelector(".js-body");
-let ColorElement = document.querySelector(".js-color");
+{
+    const welcome = () => {
+     console.log("Witam wszystkich serdecznie")
+    }
+    
+    const toggleBackground = () => {
+        const bodyElement = document.querySelector(js-body);
+        const colorElement = document.querySelector(".js-color");
 
-ElementButton.addEventListener("click", () => {
-    BodyElement.classList.toggle("dark");
-    ColorElement.innerText = ElementBody.classList.contains("dark") ? "jasny" : "ciemny";
-});
+        bodyElement.classList.toggle("body--dark");
+        colorElement.innerText = bodyElement.classList.contains("body--dark") ? "jasny" : "ciemny";
+    };
+
+    const init = () => {
+        const changeBackgroundButton = document.querySelector("js-changeBackgroundButton");
+        changeBackgroundButton.addEventListener("click", toggleBackground);
+        
+       welcome();
+    };
+    
+    init();
+    
+    }
+    
 
 
