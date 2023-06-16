@@ -23,7 +23,7 @@ box-sizing: border-box;
     font-size: 20px;
     text-indent: 40px;
 }
-.dark {
+.body--dark {
     color: rgb(230, 240, 250);
     background:rgb(90, 86, 86);
 }

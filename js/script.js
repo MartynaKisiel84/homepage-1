@@ -4,7 +4,7 @@
     }
     
     const toggleBackground = () => {
-        const bodyElement = document.querySelector(js-body);
+        const bodyElement = document.querySelector(".js-body");
         const colorElement = document.querySelector(".js-color");
 
         bodyElement.classList.toggle("body--dark");
@@ -12,7 +12,7 @@
     };
 
     const init = () => {
-        const changeBackgroundButton = document.querySelector("js-changeBackgroundButton");
+        const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
         changeBackgroundButton.addEventListener("click", toggleBackground);
         
        welcome();
