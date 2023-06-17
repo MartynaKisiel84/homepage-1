@@ -4,11 +4,9 @@
     }
     
     const toggleBackground = () => {
-<<<<<<< HEAD
         const bodyElement = document.querySelector(".js-body");
-=======
-        const bodyElement = document.querySelector("js-body");
->>>>>>> 58bf4792f8a10baf964db7528282877f7bd1681c
+        const bodyElement = document.querySelector(".js-body");
+
         const colorElement = document.querySelector(".js-color");
 
         bodyElement.classList.toggle("body--dark");
