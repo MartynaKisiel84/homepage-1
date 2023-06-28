@@ -24,8 +24,7 @@ box-sizing: border-box;
     text-indent: 40px;
 }
 .body--dark {
-    color: rgb(230, 240, 250);
-    background:rgb(90, 86, 86);
+   background-color:rgb(90, 86, 86);
 }
 .caption {
     caption-side: bottom;
